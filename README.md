@@ -79,7 +79,7 @@ Problems with alignments can occur and give `Bus error`. Posible solutions:
 If you get an "Unsupported error" (nearby red text "error"), use [raspbian-nspawn-64](https://github.com/sakaki-/raspbian-nspawn-64). 
 You can do this by doing `sudo apt install raspbian-nspawn-64`. Note that installing this shell, plus updates, may bog down internet resources. 
 This installs a 64-bit shell, which cpuminer-gr can be run in. 
-After installed, reboot, and run `sudo apt update && sudo apt update -y`. This updates and upgrades the packages, insuring it will work.
+After installed, reboot, and run `sudo apt update && sudo apt upgrade -y`. This updates and upgrades the packages, insuring it will work.
 Finally, run the commands under [Install](https://github.com/GL513/cpuminer-gr/#install).
 
 Note from Jay D Dee. repository
