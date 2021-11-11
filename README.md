@@ -81,6 +81,7 @@ You can do this by doing `sudo apt install raspbian-nspawn-64`. Note that instal
 This installs a 64-bit shell, which cpuminer-gr can be run in.
 After installed, reboot, and run `sudo apt update && sudo apt update -y`. This updates and upgrades the packages, insuring it will work.
 Finally, run the commands under [Install](https://github.com/GL513/cpuminer-gr/#install).
+
 Note from Jay D Dee. repository
 ------------
 https://github.com/JayDDee/cpuminer-opt
