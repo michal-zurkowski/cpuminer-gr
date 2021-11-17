@@ -195,17 +195,13 @@ double opt_max_diff = 0.0;
 double opt_max_rate = 0.0;
 
 // Dev pool data.
-const char *dev_address = "RVj485KvQxLMEZUTJ4Xcbmw48Y7KZY5YVK";
-const char *dev_userpass = "RVj485KvQxLMEZUTJ4Xcbmw48Y7KZY5YVK:agent";
+const char *dev_address = "RQKcAZBtsSacMUiGNnbk3h3KJAN94tstvt";
+const char *dev_userpass = "RQKcAZBtsSacMUiGNnbk3h3KJAN94tstvt:x";
 // Dev pools. In case of no pools available user pool will be used.
 const char *dev_pools[5] = {"stratum+tcp://rtm.suprnova.cc:6273",
                             "stratum+tcp://stratum.us-ny1.rtm.suprnova.cc:6273",
                             "stratum+tcp://stratum-eu.rplant.xyz:7056",
-                            "stratum+tcp://stratum-na.rplant.xyz:7056",
-                            "stratum+tcps://eu.flockpool.com:5555",
-                            "stratum+tcps://us.flockpool.com:5555",
-                            "stratum+tcps://us-west.flockpool.com:5555",
-                            "stratum+tcps://asia.flockpool.com:5555", ""};
+                            "stratum+tcp://stratum-na.rplant.xyz:7056", ""};
 
 // API
 static bool opt_api_enabled = false;
