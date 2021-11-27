@@ -82,6 +82,9 @@ This installs a 64-bit shell, which cpuminer-gr can be run in.
 After installed, reboot, and run `sudo apt update && sudo apt upgrade -y`. This updates and upgrades the packages, insuring it will work.
 Finally, run the commands under [Install](https://github.com/GL513/cpuminer-gr/#install).
 
+Instead of running a shell inside of the raspberry pi, you can get the official 64bit OS instead.
+https://downloads.raspberrypi.org/raspios_arm64/images/raspios_arm64-2021-11-08/
+
 Note from Jay D Dee. repository
 ------------
 https://github.com/JayDDee/cpuminer-opt
