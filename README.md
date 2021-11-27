@@ -73,9 +73,17 @@ Troubleshooting
 ------------
 Raspberry Pi 4     Raspbian
 Problems with alignments can occur and give `Bus error`. Posible solutions:
-1. To fix it run followinf command: `sudo echo "0" > /proc/cpu/alignment`
+1. To fix it run following command: `sudo echo "0" > /proc/cpu/alignment`
 2. Switch from SD card to USB drive.
 
+If you get an "Unsupported error" (nearby red text "error"), use [raspbian-nspawn-64](https://github.com/sakaki-/raspbian-nspawn-64). 
+You can do this by doing `sudo apt install raspbian-nspawn-64`. Note that installing this shell, plus updates, may bog down internet resources. 
+This installs a 64-bit shell, which cpuminer-gr can be run in. 
+After installed, reboot, and run `sudo apt update && sudo apt upgrade -y`. This updates and upgrades the packages, insuring it will work.
+Finally, run the commands under [Install](https://github.com/GL513/cpuminer-gr/#install).
+
+Instead of running a shell inside of the raspberry pi, you can get the official 64bit OS instead.
+https://downloads.raspberrypi.org/raspios_arm64/images/raspios_arm64-2021-11-08/
 
 Note from Jay D Dee. repository
 ------------
